@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(209, 209, 209);
+  background-image: url("../../assets/images/kinoteatr.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  box-shadow: 0px 8px 100px 2px;
+}

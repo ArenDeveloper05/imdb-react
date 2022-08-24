@@ -1,0 +1,34 @@
+.search-div {
+  background-color: tomato;
+  width: max-content;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  width: 400px;
+  height: 40px;
+  text-indent: 10px;
+  outline: 0;
+}
+.search-button {
+  width: 60px;
+  height: 40px;
+}
+.search-icon-div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  visibility: hidden;
+}
+.search-div:hover .search-icon-div {
+  visibility: visible;
+}
+
+.search-input:hover + .search-icon-div {
+  visibility: visible;
+}
